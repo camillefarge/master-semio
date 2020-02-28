@@ -1,0 +1,100 @@
+/* ATOMIC DESIGN */
+
+
+@font-face {
+    font-family: "Syne-Regular";
+    src: url("../fonts/Syne-Regular.otf");
+}
+
+@font-face {
+    font-family: "Truneo";
+    src: url("../fonts/TruenoRg.otf");
+}
+
+@font-face {
+    font-family: "Truneo-Bold";
+    src: url("../fonts/TruenoBd.otf");
+}
+
+@font-face {
+    font-family: "Truneo-Light";
+    src: url("../fonts/TruenoLt.otf");
+}
+
+
+body h1 {
+    font-family: 'Syne-Regular', 'sans-serif';
+    font-size: 201px;
+    color: #000000;
+    text-transform: lowercase;
+
+}
+
+body h2 {
+
+    font-family: 'Syne-Regular', 'sans-serif';
+    font-size: 110px;
+    color: #000000;
+
+}
+
+body h3 {
+    font-family: 'Syne-Regular', 'sans-serif';
+    font-size: 110px;
+    color: #000000;
+}
+
+body h4 {
+    font-family: 'Truneo-Bold', 'sans-serif';
+    font-size: 34px;
+    color: #000000;
+}
+
+body h5 {
+    font-family: 'Truneo', 'sans-serif';
+    font-size: 34px;
+    color: #000000;
+
+}
+
+body h6 {
+    font-family: 'Syne-Regular', 'sans-serif';
+    font-size: 25px;
+    color: #000000;
+
+}
+
+body p {
+    font-family: 'Truneo-Light', 'sans-serif';
+    font-size: 25px;
+    color: #000000;
+}
+
+body nav ul {
+    display: flex;
+    align-items: center;
+}
+
+body nav ul li {
+    font-family: 'Truneo', 'sans-serif';
+    font-size: 23px;
+
+    list-style-type: none;
+    margin: 10px;
+
+
+}
+
+body nav ul li:before {
+    content: url(../img/pastile_contour.png);
+    width: 13px;
+    height: 13px;
+    padding: 10px;
+}
+
+body nav ul li.active:before {
+    content: url(../img/pastile_bleu.png);
+    width: 13px;
+    height: 13px;
+    padding: 10px;
+}
