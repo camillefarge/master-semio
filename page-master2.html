@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<!-- Atomic Design , 18 février 2020 -->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Master 2</title>
+    <link type="text/css" rel="stylesheet" href="assets/style/style.css" media="screen" />
+
+    <link type="text/css" rel="stylesheet" href="assets/style/master.css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="page-acceuil">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav mx-auto">
+                <a class="nav-item nav-link active text-white" href="#">Parcours</a>
+                <a class="nav-item nav-link active text-white" href="#">Objectifs</a>
+                <a class="nav-item nav-link active text-white" href="#">Programme</a>
+                <a class="nav-item nav-link active text-white" href="#">Débouchés</a>
+            </div>
+        </div>
+
+        <div class="navbar-text">
+            Menu points
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="jumbotron">
+        <div class="container-fluid master_hero">
+
+        <div class="row align-items-center min-vh-100 pb-5">
+            <div class="col-lg-6 col-md-12 ">
+                <h1 class="h2 master_title">Master 2</h1>
+                <p class="lead pr-5 ">En Deuxième année le master sémiotique et stratégie propose aux étudiants 2 parcours :
+                    le parcours pro et le parcours recherche.</p>
+            </div>
+            <div class="col-lg-6  col-md-12 hero_img_wrapper">
+                <img class="hero_img " src="assets/img/master/m2.jpg" s alt="">
+                <!-- <img class="hero_img_icon" src="assets/img/master/2_icon.png" alt=""> -->
+            </div>
+        </div>
+
+        <a href="page-master1.html" class="link_to_m2">
+            master 1
+        </a>
+    </div>
+
+    </div>
+
+    <ul class="nav nav-tabs parcours-choix" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#pro" role="tab" aria-controls="home" aria-selected="true">Parcours pro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#recherche" role="tab" aria-controls="profile" aria-selected="false">Parcours recherche</a>
+        </li>
+
+      </ul>
+      <!-- <ul class="nav nav-pills parcours-choix mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pro" role="tab" aria-controls="pills-home" aria-selected="true">Parcours pro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#recherche" role="tab" aria-controls="pills-profile" aria-selected="false">Parcours recherche</a>
+        </li>
+
+      </ul> -->
+
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="pro" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container mb-100">
+
+                <div class="row">
+                    <h2 class="mb-5">Le master pro</h2>
+                    <p>Le parcours "recherche" (Master 2) prépare préférentiellement à l'enseignement et à la recherche dans les
+                        établissements d'enseignement supérieur, en France, dans l'Union Européenne et à l'étranger. Il peut
+                        également ouvrir aux différents métiers qui réclament une expertise en analyse de discours, d'objets et
+                        de pratiques, des compétences de conseil en stratégies de communication et d'innovation.</p>
+                </div>
+        
+            </div>
+
+
+            <div class="container-fluid bg-primary pt-5 pb-5 ">
+
+                <div class="container objectifs mt-100 mb-100">
+        
+        
+                    <h2 class="text-white mb-5">Objectifs pro</h2>
+        
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <h3 class="text-white h4">Recherche</h3>
+                            <p class="text-white">Former des spécialistes en sémiotique fondamentale et appliquée, selon une
+                                double perspective : gérer la signification et les valeurs véhiculées par les discours ainsi que
+                                par les cultures numériques</p>
+        
+                        </div>
+        
+        
+                        <div class="col-md-6 ">
+                            <h3 class="text-white h4">Pro</h3>
+                            <p class="text-white">Former des spécialistes en sémiotique appliquée et en business intelligence,
+                                capables de gérer la signification et les valeurs véhiculées par une stratégie de communication,
+                                une stratégie de marque.</p>
+                        </div>
+                    </div>
+        
+        
+                </div>
+            </div>
+
+            <div class="container mt-100">
+                <h3 class="h2 mb-5">Programme</h3>
+                <div id="accordion" class="mb-100">
+                    <div class="">
+                        <div class="" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link prog-link text-primary" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Semestre 1
+                                </button>
+                            </h5>
+                        </div>
+        
+        
+        
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="">
+                                <ul class="ue">
+                                    <li>UE 1 : Sciences du Langage et Sciences Humaines</li>
+                                    <li>UE 2 : Sémiotique et Sciences de l'Information et de la Communication</li>
+                                    <li>UE 3 : Textes et pratiques</li>
+                                    <li>UE 4 : Méthodologies du marketing</li>
+                                    <li>UE 5 : Parcours Pratique de la Recherche S3</li>
+                                </ul>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="">
+                        <div class="" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed prog-link text-primary" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Semestre 2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div>
+                                <ul class="ue">
+                                    <li>UE 1 : Sciences du Langage et Sciences Humaines</li>
+                                    <li>UE 2 : Sémiotique et Sciences de l'Information et de la Communication</li>
+                                    <li>UE 3 : Textes et pratiques</li>
+                                    <li>UE 4 : Méthodologies du marketing</li>
+                                    <li>UE 5 : Parcours Pratique de la Recherche S3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class="row mb-100">
+                    <h2 class="mb-5">Pré requis</h4>
+                        <p>Pour pouvoir candidater, vous devez obligatoirement être titulaire d'un diplôme de niveau Bac +3.</p>
+                        <p>Mentions de Licence préconisées : Sciences du langage, Information-communication, Gestion, Arts,
+                            Lettres et Langues, Sciences sociales, Humanités, Sciences politiques.</p>
+                </div>
+        
+        
+                <div class="row mt-5 mb-100 poursuite-etude">
+                    <div class="col-md-6 col-sm-12">
+        
+                        <img class="img-fluid" src="assets/img/rose.jpg" alt="img">
+                    </div>
+        
+        
+        
+        
+        
+        
+                    <div class="col-5 ml-5 poursuite-etude_text">
+                        <h2 class="mb-5">Poursuite d'étude</h2>
+        
+                        <p>Le doctorat est le prolongement naturel du parcours de recherche. Les doctorants s'inscrivent,
+                            rédigent et soutiennent leurs travaux dans le cadre de l'Ecole Doctorale "Cognition, comportement,
+                            langages" (PRES Limousin Poitou-Charentes). Des co-tutelles sont possibles.</p>
+                        <p>Les étudiants diplômés qui ont suivi le parcours professionnel peuvent, sous conditions, poursuivre
+                            des recherches en doctorat dans le domaine des pratiques sémiotiques en communication et en
+                            marketing. Ils peuvent intégrer d'autres Écoles spécialisées en pratiques de la communication (Sup
+                            de Pub, Ecole de la communication de l'IEP Paris, par exemple).</p>
+                    </div>
+                </div>
+        
+        
+        
+                <h2 class="mb-5">Débouchés</h2>
+        
+                <div class="row mt-5 debouches mb-100">
+
+                    <div class="col-md-6">
+        
+                        <ul class="metiers nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <li>
+                                <a class="nav-link active show" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Consultant en stratégie de marque</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Chargés d'études</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                                    role="tab" aria-controls="v-pills-messages" aria-selected="false">Planner stratégique</a>
+        
+        
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                    role="tab" aria-controls="v-pills-settings" aria-selected="false">Chef de projet</a>
+        
+        
+                            </li>
+                        </ul>
+                    </div>
+        
+        
+                    <div class="col-md-6 metiers-text tab-content" id="v-pills-tabContent">
+        
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <p class="text-white">Avant de lancer un produit ou un nouveau service sur le marché, une entreprise
+                                demande au chargé
+                                d'études en marketing d'analyser les attentes des clients et l'offre de la concurrence. C'est un
+                                préalable nécessaire à tout lancement commercial.</p>
+                        </div>
+        
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <p class="text-white">Chargé d'étude</p>
+                        </div>
+        
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <p class="text-white">Planner stratégique</p>
+                        </div>
+                    
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <p class="text-white">Chef de projet</p>
+                    </div>
+        
+                </div>
+        
+                </div>
+        
+                <div class="row">
+        
+                    <div class="col-12">
+                        <h4 class="h2 mb-5">En savoir plus</h4>
+                    </div>
+        
+                    <div class="col-4">
+                    <a href="">Présentation de la formation</a>
+                    </div>
+        
+                    <div class="col-4">
+                        <a href="">Structure des enseignements 2020-2021 de la formation</a>
+                    </div>
+        
+                    <div class="col-4">
+                        <a href="">MCC – Modalités de contrôle des connaissances</a>
+        
+                    </div>
+                </div>
+        
+        
+        
+                </div>
+
+
+
+        </div>
+        <div class="tab-pane fade" id="recherche" role="tabpanel" aria-labelledby="profile-tab">
+
+
+            <div class="container mb-100">
+
+                <div class="row">
+                    <h2 class="mb-5">Le master recherche</h2>
+                    <p>Le parcours "recherche" (Master 2) prépare préférentiellement à l'enseignement et à la recherche dans les
+                        établissements d'enseignement supérieur, en France, dans l'Union Européenne et à l'étranger. Il peut
+                        également ouvrir aux différents métiers qui réclament une expertise en analyse de discours, d'objets et
+                        de pratiques, des compétences de conseil en stratégies de communication et d'innovation.</p>
+                </div>
+        
+            </div>
+
+
+
+            <div class="container-fluid bg-primary pt-5 pb-5 ">
+
+                <div class="container objectifs mt-100 mb-100">
+        
+        
+                    <h2 class="text-white mb-5">Objectifs rech</h2>
+        
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="text-white h4">Recherche</h3>
+                            <p class="text-white">Former des spécialistes en sémiotique fondamentale et appliquée, selon une
+                                double perspective : gérer la signification et les valeurs véhiculées par les discours ainsi que
+                                par les cultures numériques</p>
+        
+                        </div>
+        
+        
+                        <div class="col-md-6 ">
+                            <h3 class="text-white h4">Pro</h3>
+                            <p class="text-white">Former des spécialistes en sémiotique appliquée et en business intelligence,
+                                capables de gérer la signification et les valeurs véhiculées par une stratégie de communication,
+                                une stratégie de marque.</p>
+                        </div>
+                    </div>
+        
+        
+                </div>
+            </div>
+
+
+            <div class="container mt-100">
+                <h3 class="h2 mb-5">Programme</h3>
+                <div id="accordion" class="mb-100">
+                    <div class="">
+                        <div class="" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link prog-link text-primary" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Semestre 1
+                                </button>
+                            </h5>
+                        </div>
+        
+        
+        
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="">
+                                <ul class="ue">
+                                    <li>UE 1 : Sciences du Langage et Sciences Humaines</li>
+                                    <li>UE 2 : Sémiotique et Sciences de l'Information et de la Communication</li>
+                                    <li>UE 3 : Textes et pratiques</li>
+                                    <li>UE 4 : Méthodologies du marketing</li>
+                                    <li>UE 5 : Parcours Pratique de la Recherche S3</li>
+                                </ul>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="">
+                        <div class="" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed prog-link text-primary" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Semestre 2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div>
+                                <ul class="ue">
+                                    <li>UE 1 : Sciences du Langage et Sciences Humaines</li>
+                                    <li>UE 2 : Sémiotique et Sciences de l'Information et de la Communication</li>
+                                    <li>UE 3 : Textes et pratiques</li>
+                                    <li>UE 4 : Méthodologies du marketing</li>
+                                    <li>UE 5 : Parcours Pratique de la Recherche S3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class="row mb-100">
+                    <h2 class="mb-5">Pré requis</h4>
+                        <p>Pour pouvoir candidater, vous devez obligatoirement être titulaire d'un diplôme de niveau Bac +3.</p>
+                        <p>Mentions de Licence préconisées : Sciences du langage, Information-communication, Gestion, Arts,
+                            Lettres et Langues, Sciences sociales, Humanités, Sciences politiques.</p>
+                </div>
+        
+        
+                <div class="row mt-5 poursuite-etude">
+                    <div class="col-6">
+        
+                        <img class="h-75" src="assets/img/rose.jpg" alt="img">
+                    </div>
+        
+        
+        
+        
+        
+        
+                    <div class="col-5 ml-5 poursuite-etude_text">
+                        <h2 class="mb-5">Poursuite d'étude</h2>
+        
+                        <p>Le doctorat est le prolongement naturel du parcours de recherche. Les doctorants s'inscrivent,
+                            rédigent et soutiennent leurs travaux dans le cadre de l'Ecole Doctorale "Cognition, comportement,
+                            langages" (PRES Limousin Poitou-Charentes). Des co-tutelles sont possibles.</p>
+                        <p>Les étudiants diplômés qui ont suivi le parcours professionnel peuvent, sous conditions, poursuivre
+                            des recherches en doctorat dans le domaine des pratiques sémiotiques en communication et en
+                            marketing. Ils peuvent intégrer d'autres Écoles spécialisées en pratiques de la communication (Sup
+                            de Pub, Ecole de la communication de l'IEP Paris, par exemple).</p>
+                    </div>
+                </div>
+        
+        
+        
+                <h2 class="mb-5">Débouchés</h2>
+        
+                <div class="row mt-5 debouches mb-100">
+
+                    <div class="col-md-6">
+        
+                        <ul class="metiers nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <li>
+                                <a class="nav-link active show" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Consultant en stratégie de marque</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Chargés d'études</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                                    role="tab" aria-controls="v-pills-messages" aria-selected="false">Planner stratégique</a>
+        
+        
+                            </li>
+                            <li>
+                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                    role="tab" aria-controls="v-pills-settings" aria-selected="false">Chef de projet</a>
+        
+        
+                            </li>
+                        </ul>
+                    </div>
+        
+        
+                    <div class="col-md-6 metiers-text tab-content" id="v-pills-tabContent">
+        
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <p class="text-white">Avant de lancer un produit ou un nouveau service sur le marché, une entreprise
+                                demande au chargé
+                                d'études en marketing d'analyser les attentes des clients et l'offre de la concurrence. C'est un
+                                préalable nécessaire à tout lancement commercial.</p>
+                        </div>
+        
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <p class="text-white">Chargé d'étude</p>
+                        </div>
+        
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <p class="text-white">Planner stratégique</p>
+                        </div>
+                    
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <p class="text-white">Chef de projet</p>
+                    </div>
+        
+                </div>
+        
+                </div>
+        
+                <div class="row">
+        
+                    <div class="col-12">
+                        <h4 class="h2 mb-5">En savoir plus</h4>
+                    </div>
+        
+                    <div class="col-4">
+                    <a href="">Présentation de la formation</a>
+                    </div>
+        
+                    <div class="col-4">
+                        <a href="">Structure des enseignements 2020-2021 de la formation</a>
+                    </div>
+        
+                    <div class="col-4">
+                        <a href="">MCC – Modalités de contrôle des connaissances</a>
+        
+                    </div>
+                </div>
+        
+        
+        
+                </div>
+        </div>
+      </div>
+
+   
+
+    
+
+   
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

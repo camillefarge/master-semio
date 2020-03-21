@@ -1,0 +1,189 @@
+.master_hero {
+    padding: 0 7vw !important;
+}
+
+
+.hero_img {
+    /* max-height: 600px; */
+    max-height: 70vh;
+    width: auto;
+}
+
+.hero_img_wrapper {
+    padding-left: 80px !important;
+}
+.hero_img_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4vw;
+
+}
+
+.master_title {
+    margin-left: 50px;
+    position: relative;
+}
+
+.master_title::before {
+    content: url('../img/master/m-small_icon.png');
+    /* height: 3px !important;
+    width: 10px; */
+    position: absolute;
+    left: -50px;
+    /* top: -20px; */
+    bottom: 0;
+}
+
+.jumbotron {
+    background-color: #FFFFFF !important;
+}
+
+.link_to_m2 {   
+    transform: rotate(-90deg);
+    position: fixed;
+    right: 0;
+    font-family: "Truneo";
+    color: black !important;
+    /* text-decoration: underline; */
+    /* bottom: 0; */
+    top: calc(50vh);
+}
+
+.link_to_m2::after {
+    content: url('../img/arrow.png');
+    height: 3px;
+    position: relative;
+    /* bottom: -5px; */
+    bottom: -2px;
+    right: -5px;
+
+}
+
+.mb-100 {
+margin-bottom: 180px;
+}
+
+.mt-100 {
+    margin-top: 180px;
+}
+
+.pb-100 {
+    padding-bottom: 180px;
+}
+
+.pt-100 {
+    padding-top: 180px;
+}
+
+.objectifs p {
+    max-width: 450px;
+}
+
+.ue {
+    list-style: none;
+   }
+   
+   .ue li {
+       margin-bottom: 20px;
+   }
+
+   
+.prog-link {
+    font-family: 'Syne-Regular';
+    font-size: 30px !important;
+    text-decoration: underline !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.ue li {
+    font-family: "Truneo-Bold";
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* .poursuite-etude_text {
+    margin-left: 25px;
+} */
+
+.metiers {
+    font-family: 'Truneo-Bold', 'sans-serif';
+    font-size: 22px;
+    list-style: none;
+    display: block !important;
+}
+
+.metiers li {
+    max-width: 300px;
+margin-bottom: 35px;
+line-height: 30px;
+}
+
+.metiers-text {
+    background-color: #131313;
+    height: 300px;
+}
+
+.metiers-text p {
+    position: absolute;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); 
+  font-size: 15px;
+  line-height: 25px;
+
+  padding: 80px;
+}
+
+.metiers a {
+ color: black !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    
+}
+
+.metiers-active {
+    color:  #4E00FF;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #4E00FF !important;
+    background-color: transparent !important;
+}
+
+.parcours-choix {
+    position: fixed;
+    bottom: -2px;
+    z-index: 10;
+    width: 100vw;
+    background-color: #fff;
+    padding-top: 7px;
+
+}
+
+.parcours-choix .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /* color: #ffffff !important;
+    background-color: #4E00FF !important;
+    border-color : #4E00FF !important; */
+    color: #4E00FF !important;
+    border-bottom: 0.7rem solid !important;
+    border-color: #4E00FF !important;
+}
+
+.parcours-choix .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    /* border: 1px solid #4E00FF !important;
+    background-color: #fff !important; */
+    font-family: "Syne-Regular" !important;
+    font-size: 22px;
+    border: none !important;
+    background-color: #fff !important;
+    color: black !important;
+
+}
+
+a {
+    color: #4E00FF !important;
+}

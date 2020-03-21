@@ -1,0 +1,215 @@
+.activities {
+    margin-bottom: -150px;
+
+}
+
+
+
+.limoges-head p {
+    max-width: 350px;
+    position: relative;
+    right:80px ;
+    top: 300px;
+}
+
+.limoges_card-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.limoges_card {
+    height: 280px;
+    max-width: 320px;
+    width: 100%;
+    background-color: #4E00FF;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 50px;
+    position: relative;
+}
+
+.limoges_card .limoges_card_date {
+    font-family: "Truneo-Bold";
+}
+
+
+.limoges_card_icon {
+    width: 20%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.carousel-inner {
+    height : 600px;
+}
+
+
+.h2_limoges {
+    font-family: 'Syne-Regular';
+    font-size: 45px;
+    max-width: 500px;
+    text-align: right;
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+}
+
+
+.limoges_activities_circles {
+    width:calc(20% *2);
+    position: absolute;
+}
+
+
+
+
+
+
+
+.illu_circle-2 {
+    /* width: 41px; */
+    width: calc(5.6% *2);
+    position: relative;
+    /* left: 47px; */
+
+    left: calc(7.7% *2)  ;
+    /* top: 45px; */
+    /* top: 3.5vmax; */
+    top: 8.7vmax;
+}
+
+
+
+.illu_nature {
+    width: calc(8% * 2)  ;
+    display: inline-block;
+    position: absolute;
+
+    /* top: 60px;
+    left: 70px; */
+    left: calc(8% *2)  ;
+    top: 11.4vmax;
+    /* position: absolute;
+    left: -280px;
+    top: 80px; */
+}
+
+.limoges_activities_activity {
+    display: inline;
+    /* margin-left: 270px; */
+    margin-left: 45%;
+    font-family: "Truneo-Bold";
+
+}
+
+.limoges_activities_activity-text {
+    /* display: inline; */
+    /* margin-left: 270px; */
+    margin-left: 45%;
+}
+
+
+.limoges_activities_activity-circle {
+    display: inline;
+    /* margin-left: 194px; */
+    margin-left: 30%;
+    font-family: "Truneo-Bold";
+    position: absolute;
+    top: 0;
+}
+
+.limoges_activities_activity-text-circle {
+    /* display: inline; */
+    /* margin-left: 214px; */
+    margin-left: 41%;
+    position: absolute;
+    top: 35px;
+}
+
+
+.carousel-item {
+     /* background-color: #FFFFFF; */
+    /* width: 200px; */
+    height: 200px;
+}
+
+.limoges_localisation {
+    position: relative;
+}
+
+.limoges_localisation h2 {
+    z-index: 3;
+    left: 300px;
+    top: 150px;
+    position: absolute;
+}
+
+
+.limoges_toggle-text {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.limoges_campus_photo {
+width: 70%;
+}
+
+
+.limoges_campus_title {
+    font-size: 80px;
+    }
+
+
+
+.toggle-wrapper {
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+    z-index: 3;
+    /* margin-top: -100px; */
+}
+
+.campus-wrapper-wrap {
+    position: relative;
+}
+.campus-wrapper {
+    position: relative;
+
+}
+
+.campus {
+    z-index: 2;
+    background-color: #fff;
+    /* height: 750px; */
+    height: 100vh;
+    /* transition: all 2s; */
+}
+
+.campus-2 {
+    /* position: relative; */
+    height: 100vh;
+
+    /* transition: all 2s; */
+    /* top: -710px;  */
+
+
+    /* position: absolute;
+        top: 0; */
+        display: none;
+        /* position: relative;
+        top: -100vh; */
+
+} 
+
+.campus-2-wrapper {
+    /* position: absolute;
+    top: 0; */
+    /* display: hidden; */
+}
+
+.campus-2-wrapper-wrap {
+    position: relative;
+}
