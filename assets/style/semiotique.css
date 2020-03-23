@@ -1,0 +1,195 @@
+.semio p {
+    line-height: 35px;
+}
+
+
+.semio {
+    overflow-x: hidden;
+}
+/* HERO */
+
+.semio_hero {
+    height: 100vh;
+    position: relative;
+}
+
+.semio_hero .semio_hero_icon-wrapper {
+    position: relative;
+}
+
+
+.semio_hero .semio_hero_icon {
+    position: absolute;
+    /* top: 50vh; */
+    right: 0;
+    bottom: 20vh;
+}
+
+strong {
+    color: #4E00FF;
+} 
+
+
+/* DISCIPLINE */
+
+.semio_discipline_title {
+    font-size: 50px;
+}
+
+
+.semio_discipline_text {
+    line-height: 35px;
+    /* font-size: 18px; */
+}
+
+
+
+/* ANALYSE */
+
+.quote_title {
+    /* margin-left: 20px; */
+    font-size: 50px;
+}
+
+.quote_title::before {
+    content: url(../img/semitoque/guillemet.png);
+    position: absolute;
+    top: -50px;
+    left: -70px;
+}
+
+
+.quote_title::after {
+    content: url('../img/semitoque/guillemet.png');
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: -50px;
+    right: 20px;
+
+}
+
+
+.semio_analyse_text {
+    line-height: 35px;
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+}
+
+
+
+
+/* LANGAGE */
+
+.semio_langage_title {
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+    position: absolute;
+    left: 0;
+}
+
+
+.semio_langage_title::after {
+    content:'La sémiotique s’intéresse à tous les langages, et à toutes les pratiques langagières.';
+    position: relative;
+    left: 5%;
+}
+
+
+@keyframes defilement {
+    0%, 100% {
+   margin-left:0;
+   }
+    99.99% {
+   margin-left:-100%;
+   }
+   }
+
+
+   @keyframes marquee {
+    from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+  }
+
+  .semio_langage_text {
+      position: relative;
+      top: 40%;
+  }
+
+   .semio_langage_list {
+    font-size: 20px;
+    list-style: none;
+    font-family: "Syne-Regular";
+    color: #4E00FF;
+
+   }
+
+   .semio_langage_list-2 {
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+    position: absolute;
+    left: 0;
+   }
+
+   .semio_langage_list-2::after {
+       content: 'les textes, les échanges et les scènes de la vie quotidienne les signes visuels les langues, les formes d’écriture, le design des objets, les stratégies de communication, les médias, ';
+   }
+
+   .semio_langage_list-2 li {
+    display: inline;
+    margin-right: 17px;
+}
+
+
+   .semio_langage_list li {
+       margin-bottom: 15px;   
+   }
+
+
+   /* SYMBOLIQUE */
+.rose-wrapper {
+    position: relative;
+}
+
+.rose-2 {
+    position: absolute;
+    top: -10%;
+    left: -30%;
+    z-index: -1;
+    /* opacity: 0.4; */
+}
+
+
+/* TYPES */
+
+.semio_types_subtitle {
+    font-family: "Syne-Regular";
+    color: Blue;
+    font-size: 40px;
+}
+
+.semio_types_text {
+    margin-bottom: 5vh;
+}
+
+
+.semio_types_title {
+    position: relative;
+    right: -30%;
+}
+
+.semio_types_intro {
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+

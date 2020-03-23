@@ -1,0 +1,14 @@
+.stagiaire-wrapper > * {
+    font-family: "Syne-Regular" !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .stagiaire-wrapper {
+        order: 2;
+    }
+
+    .quote-wrapper {
+        order: 1;
+    }
+  }
